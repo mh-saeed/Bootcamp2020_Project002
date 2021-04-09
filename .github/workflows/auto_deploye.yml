@@ -39,7 +39,7 @@ jobs:
           cmd: install # will run `yarn install`
           
       - name: Creating react app build
-        run: yarn build
+        run: sudo yarn build
       
 
       # Runs a set of commands using the runners shell
